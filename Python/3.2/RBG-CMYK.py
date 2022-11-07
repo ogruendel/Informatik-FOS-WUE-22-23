@@ -20,7 +20,7 @@ m = (1 - g - k) / (1 - k)
 y = (1 - b - k) / (1 - k)
 
 # Drucken der Variablen 'c', 'm', 'y' und 'k' in der Konsole
-print(c)
-print(m)
-print(y)
-print(k)
+print("C:", c)
+print("M:", m)
+print("Y:", y)
+print("K:", k)
