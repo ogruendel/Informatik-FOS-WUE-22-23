@@ -28,10 +28,10 @@ bareinkaufspreis = zieleinkaufspreis - skonto
 bezugspreis = bareinkaufspreis + bezugskosten
 
 # Drucken aller Variablen in der Konsole
-print(listeneinkaufspreis)
-print(lieferrabatt)
-print(zieleinkaufspreis)
-print(skonto)
-print(bareinkaufspreis)
-print(bezugskosten)
-print(bezugspreis)
+print("Listeneinkaufspreis:", format(listeneinkaufspreis, '.2f') + "€")
+print("Lieferrabatt:", format(lieferrabatt, '.2f') + "€")
+print("Zieleinkaufspreis:", format(zieleinkaufspreis, '.2f') + "€")
+print("Skonto:", format(skonto, '.2f') + "€")
+print("Bareinkaufspreis:", format(bareinkaufspreis, '.2f') + "€")
+print("Bezugskosten:", format(bezugskosten, '.2f') + "€")
+print("Bezugspreis:", format(bezugspreis, '.2f') + "€")
