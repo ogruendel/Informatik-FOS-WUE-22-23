@@ -1,10 +1,6 @@
-# a = int(input("Zahl 1: "))
-# b = int(input("Zahl 2: "))
-# c = int(input("Zahl 3: "))
-
-a = 4
-b = 3
-c = 4
+a = int(input("Zahl 1: "))
+b = int(input("Zahl 2: "))
+c = int(input("Zahl 3: "))
 
 # TODO: Optimieren
 
