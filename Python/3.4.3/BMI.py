@@ -1,8 +1,8 @@
-größe = float(input("Größe in cm: ")) / 100
+groesse = float(input("Größe in cm: ")) / 100
 gewicht = float(input("Gewicht in Kilogramm: "))
 geschlecht = input("Geschlecht? (m) oder (f): ")
 
-bmi = round(gewicht / (größe * größe), 1)
+bmi = round(gewicht / (groesse * groesse), 1)
 
 if geschlecht == "m":
     if bmi < 20:
