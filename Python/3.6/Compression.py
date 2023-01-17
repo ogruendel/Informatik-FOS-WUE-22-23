@@ -9,6 +9,6 @@ for letter in s:
         prev = letter
     else:
         sc += prev + str(c)
-        c = 0
+        c = 1
         prev = letter
 print(sc)
