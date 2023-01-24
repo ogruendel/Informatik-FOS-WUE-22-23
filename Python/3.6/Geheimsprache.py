@@ -1,10 +1,4 @@
-s = input("Satz: ")
-s = s.split(" ")
 out = ""
-
-for i, w in enumerate(s):
-    w = w[len(w) - 1] + w
-    w = w[:-1]
-    out += w + "ay "
-
+for i, w in enumerate(input("Satz: ").split(" ")):
+    out += w[1:] + w[0] + "ay "
 print(out)
